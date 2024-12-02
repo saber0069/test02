@@ -68,3 +68,76 @@
 # 给变量account赋值5000，然后使用格式化输出打印print(f"您的账户余额{account}")
 # account = 5000
 # print(f"您的账户余额{account}")
+
+
+
+# 今天是星期天，所以我们可以给变量today_is_sunday赋值True，同时给变量today_is_friday赋值False
+# 然后我们分别打印输出这两个变量
+# today_is_sunday = True
+# today_is_friday = False
+# print(today_is_sunday)
+# print(today_is_friday)
+
+# 我们分别打印一下这四个比较运算的结果，2 > 1，5 < 4，1 >= 1，20 <= 10
+# print(2 > 1)
+# print(5 < 4)
+# print(1 >= 1)
+# print(20 <= 10)
+
+# 我们先给一个变量number_a赋值一个数10，然后再比较这个变量是否大于9，并打印这个比较的结果
+# number_a = 10
+# print(number_a > 9)
+
+# 我们给三个变量result_1，result_2，result_3，分别赋值三个逻辑运算的结果：
+# True and False，True or False，not True，并且打印这三个变量，看看运算的结果是什么~
+# result_1 = True and False
+# result_2 = True or False
+# result_3 = not True
+# print(result_1)
+# print(result_2)
+# print(result_3)
+
+# 今天是周天，我们给变量today_is_sunday赋值True，然后进行一次判断，
+# 如果今天是周天的话，我们就打印输出“今天不用工作！”
+# today_is_sunday = True
+# if True:
+#     print("今天不用工作！")
+
+
+# 我们来写一个if判断，如果lilei报考的志愿lilei_application是“清华大学”，并且它的高考分数exam_score大于了670，
+# 他就会被录取，输出“你被清华大学录取了”。而lilei报考的就是清华大学，并且高考成绩是676
+# lilei_application = "清华大学"
+# exam_score = 676
+# if (lilei_application == "清华大学") and (exam_score > 670):
+#     print("你被清华大学录取了")
+
+# 给一个变量number_a赋值None，然后判断它，如果number_a是空值，就输出"这是一个空值"
+# number_a = None
+# if number_a == None:
+#     print("这是一个空值")
+
+# 给一个变量number_a赋值10，判断number_a是否等于10；如果等于10的话：1，给number_a赋值1；2，并且打印输出number_a的值；3，然后再赋值0；4，并且打印输出number_a的值；我们就会得到一个竖排的10
+# *注意if内的这四行代码属于同一个缩进里面的代码块
+# number_a = 10
+# if number_a == 10:
+#     number_a = 1
+#     print(number_a)
+#     number_a = 0
+#     print(number_a)
+
+
+# 如果今天下雨，就输出“今天就不跑步了”，否则的话就输出“今天要跑步”。而今天是下雨的，today_weather = "下雨"，尝试用if-else结构写一个双向判断
+# today_weather = "下雨"
+# if today_weather == "下雨" :
+#     print("今天就不跑步了")
+# else :
+#     print("今天要跑步")
+
+# 我们需要根据余额来判断要不要买一个包包，如果余额大于10000的时候，输出“立刻买”；如果余额大于1000但是小于等于10000的时候，输出“等等再买”；其余情况，输出“暂时不买了”，给余额变量money_left赋值20000
+# money_left = 20000
+# if money_left > 10000:
+#     print("立刻买")
+# elif (money_left > 1000) and (money_left <= 10000):
+#     print("等等再买")
+# else:
+#     print("暂时不买了")
