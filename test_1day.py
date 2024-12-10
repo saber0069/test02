@@ -141,3 +141,46 @@
 #     print("等等再买")
 # else:
 #     print("暂时不买了")
+
+# 创建一个列表list_name，列表元素为字符串"小周" , "小王" , "小李"，并用print()输出列表中的每一个元素。
+# list_name = ["小周","小王","小李"]
+# print(list_name)
+
+# 创建一个列表list_number，列表元素有字符串"幸运数字"和整型1,2,3,4,5。
+# 使用print()输出列表。
+# list_number = ["幸运数字",1,2,3,4,5]
+# print(list_number)
+
+# 索引公司新员工列表的第1个元素"Cindy"。
+# 使用print()输出该元素
+# list_staff = ["Cindy", "Amy", "Susu", "June", "Peter"]
+# print(list_staff[0])
+
+# 将列表list_tel中的第1个元素修改为10086，第3个元素修改为95588
+# 并用print()输出修改后的列表。
+# list_tel = [10066 , 10000 , 95566 , 12305]
+# list_tel[0] = 10086
+# list_tel[2] = 95588
+# print(list_tel)
+
+# 使用pop()删除列表list_number中的第3项元素。
+# 并使用print()输出修改后的列表。
+# list_number = [1 , 2 , 3 , 4 , 5]
+# list_number.pop(2)
+# print(list_number)
+
+# 创建一个列表list_number，列表元素为1,2,3,4,5，获取[1:3]的切片，并用print指令输出
+# list_number = [1,2,3,4,5]
+# print(list_number[1:3])
+
+# 1.创建一个列表list_number，列表元素为1，2，3，4，5
+# 2.使用append()方法添加数字6，并用print指令输出修改后的列表
+# list_number = [1,2,3,4,5]
+# list_number.append(6)
+# print(list_number)
+
+# 使用insert()方法将数字5添加在列表list_number的第2位
+# 并用print()指令重新输出列表list_number
+list_number = [1,2,3,4,5]
+list_number.insert(1,5)
+print(list_number)
